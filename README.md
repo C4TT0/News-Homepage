@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/C4TT0/Sunnyside-Agency/tree/main)
-- Live Site URL: [Live Demo](https://c4tt0.github.io/Sunnyside-Agency/)
+- Solution URL: [Solution URL](https://github.com/C4TT0/News-Homepage)
+- Live Site URL: [Live Demo](https://c4tt0.github.io/News-Homepage/)
 
 ## My process
 
