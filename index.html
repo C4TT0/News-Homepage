@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor Challenge</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer></script>
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header class="flex centre__vertical">
+      <div class="logo__container">
+        <img src="./images/logo.svg" alt="" class="logo" />
+      </div>
+      <nav class="links">
+        <img
+          src="./images/icon-menu-close.svg"
+          alt=""
+          class="icon"
+          id="close-btn"
+        />
+        <ul class="flex">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </nav>
+      <img src="./images/icon-menu.svg" alt="" class="icon" id="open-btn" />
+    </header>
+    <main class="container">
+      <section class="row__1 grid">
+        <article class="web3">
+          <div class="web3__image">
+            <img src="./images/image-web-3-desktop.jpg" alt="" id="web3__image"/>
+          </div>
+          <div class="web3__text grid">
+            <div class="column__left">
+              <h1 class="extra__bold">The Bright Future of Web 3.0?</h1>
+            </div>
+            <div class="column__right">
+              <p class="regular">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button class="bold">Read More</button>
+            </div>
+          </div>
+        </article>
+        <article class="new">
+          <h2 class="bold">New</h2>
+          <div class="new__row">
+            <h3 class="bold">Hydrogen VS Electric Cars</h3>
+            <p class="regular">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <div class="border"></div>
+          <div class="new__row">
+            <h3 class="bold">The Downsides of AI Artistry</h3>
+            <p class="regular">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <div class="border"></div>
+          <div class="new__row">
+            <h3 class="bold">Is VC Funding Drying Up?</h3>
+            <p class="regular">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class="row__2 grid">
+        <article class="card flex">
+          <div class="card__img">
+            <img src="./images/image-retro-pcs.jpg" alt="" />
+          </div>
+          <div class="card__text flex">
+            <span class="number bold">01</span>
+            <h4>Reviving Retro PCs</h4>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </article>
+        <article class="card flex">
+          <div class="card__img">
+            <img src="./images/image-top-laptops.jpg" alt="" />
+          </div>
+          <div class="card__text flex">
+            <span class="number bold">02</span>
+            <h4>Top 10 Laptops of 2022</h4>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </article>
+        <article class="card flex">
+          <div class="card__img">
+            <img src="./images/image-gaming-growth.jpg" alt="" />
+          </div>
+          <div class="card__text flex">
+            <span class="number bold">03</span>
+            <h4>The Growth of Gaming</h4>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.frontendmentor.io/profile/Typh0n12">Typh0n12</a>.
+    </div>
+  </body>
+</html>
